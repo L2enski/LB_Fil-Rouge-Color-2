@@ -2,7 +2,7 @@
     position: absolute;
     top: 20px;
     right: 20px;
-    color: #ffffff;
+    color: #000000;
      transition: transform 0.9s ease; /* ease : rendu plus agréable "naturel" pour ne pas gradir d'un coup */
 }
 
@@ -27,8 +27,8 @@ h1  {
 }
 
 body {
-    background-color: #11212b;
-    color: #ffffff;
+    background-color: #FFFFFF;
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -71,13 +71,13 @@ nav li {
 .cat li:hover {
     transform: scale(1.10);
     background-color: #10cf94; 
-    color: white; 
+    color: #000000; 
     padding: 4px 12px; 
 }
 
 #projet {
     background-color: #10cf94; 
-    color: white; 
+    color: #000000; 
     padding: 4px 12px; 
 }
 
@@ -125,5 +125,5 @@ nav li {
     font-family: "Yeseva One", serif;
     font-weight: 800;
     font-style: normal;
-    color: rgb(255, 255, 255);
+    color: #000000;
 }
