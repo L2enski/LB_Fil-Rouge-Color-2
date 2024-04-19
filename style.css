@@ -127,14 +127,28 @@ h3 {
     margin-right: 30%;
     font-size: 60%; 
 }
+    .allimages img:nth-child(n+10):nth-child(-n+16) { /* Desactiver Image 10 a 16*/
+    display: none;
+}
+.note {
+    display: none;
+}
+header{
+    flex-direction: column;
+}
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) { /* 769px min et 1024px max ( Ecrans entre 769 et 1024px : tablettes )*/
     .allimages {
         grid-template-columns: repeat(5, 1fr); /* 5 colonnes et 1 fragement de l'espace (pour proportion egales)*/
 }
+    .allimages img:nth-child(16) { /* Desactiver Image 16 */
+        display: none;
 }
-
+.note {
+    display: none;
+}
+}
 .note {
     margin-left: 80%;
     font-family: "Yeseva One", serif;
