@@ -1,11 +1,17 @@
 .social-icons  {
-    position: absolute;
-    top: 20px;
-    right: 20px;
     color: #000000;
-     transition: transform 0.9s ease; /* ease : rendu plus agréable "naturel" pour ne pas gradir d'un coup */
+    transition: transform 0.9s ease; /* ease : rendu plus agréable "naturel" pour ne pas gradir d'un coup */
+    padding: 4px 12px; 
+} 
+.social-icons a {
+    padding: 0px 4px;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .point {
     font-family: "Yeseva One", serif;
     font-weight: 700;
