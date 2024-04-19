@@ -106,6 +106,21 @@ nav li {
     .allimages {
         grid-template-columns: repeat(3, 1fr); /* 3 colonnes et 1 fragement de l'espace (pour proportion egales)*/
 }
+nav li {
+        display: inline-block; 
+        padding: 2px 2px;      
+}
+nav {
+    padding: 0px 10px; 
+    font-size: 70%; 
+    margin-left: -10%;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 6%;
+    margin-right: 30%;
+    font-size: 60%; 
+}
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) { /* 769px min et 1024px max ( Ecrans entre 769 et 1024px : tablettes )*/
